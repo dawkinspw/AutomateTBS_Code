@@ -11,8 +11,8 @@ phoneRegex = re.compile(r'''
 \d{3}                     # first 3 digits
 -                         # second separator
 \d{4}                     # last 4 digits
-(((\sext(\.)?\s)|\sx)         # extension word-part (optional)
-(\d{2,5}))?)                 # extension number-part (optional)
+(((\sext(\.)?\s)|\sx)     # extension word-part (optional)
+(\d{2,5}))?)              # extension number-part (optional)
 
 ''', re.VERBOSE)
 
