@@ -6,7 +6,7 @@ import re, pyperclip
 
 phoneRegex = re.compile(r'''
 
-(((\d{3}) | (\(\d{3}\)))?  # area code (optional)
+(((\d{3}) | (\(\d{3}\)))? # area code (optional)
 (\s|-)                    # first separator
 \d{3}                     # first 3 digits
 -                         # second separator
