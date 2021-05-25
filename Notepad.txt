@@ -1,0 +1,5 @@
+Basic logging:
+
+import logging
+logging.basicConfig(filename='C:\\temp\\testlog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
